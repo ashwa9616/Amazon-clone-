@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="project2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add-first">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fas fa-location-dot"></i>
+                    <p class="add-two">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                    <!-- Add more categories here -->
+                </select>
+                <input placeholder="Search" class="search-input">
+                <div class="search-icon">
+                    <i class="fas fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="nav-signin border dropdown">
+                <p><span>Hello, Sign in</span></p>
+                <p class="nav-second">Account & Lists <i class="fas fa-caret-down"></i></p>
+                <div class="dropdown-content">
+                    <a href="#">Your Account</a>
+                    <a href="#">Your Orders</a>
+                    <a href="#">Your Lists</a>
+                    <!-- Add more options here -->
+                </div>
+            </div>
+
+            <div class="nav-returns border">
+                <p><span>Returns</span></p>
+                <p class="nav-second"> & Orders </p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fas fa-cart-shopping"></i> Cart
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fas fa-bars"></i> All
+            </div>
+
+            <div class="panel-option">
+                <p>Today's Deals</p>
+                <p>Customer Service</p>
+                <p>Registry</p>
+                <p>Gift Cards</p>
+                <!-- Add more panel options here -->
+            </div>
+            <div class="panel-deals">
+                Shop deals and Electronics
+            </div>
+        </div>
+    </header>
+
+    <div class="hero-section">
+        <div class="hero-message">
+            <p>You are on Amazon.com. You can also shop on Amazon India for millions of products with fast delivery. <a href="#">Click here to go to Amazon.in</a></p>
+        </div>
+    </div>
+
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <!-- Add your carousel images and links here -->
+                <img src="slide1.jpg" alt="Slide 1">
+                <img src="slide2.jpg" alt="Slide 2">
+                <img src="slide3.jpg" alt="Slide 3">
+                <img src="slide4.jpg" alt="Slide 4">
+                <img src="slide5.jpg" alt="Slide 5">
+                <img src="slide6.jpg" alt="Slide 6">
+                <img src="slide7.jpg" alt="Slide 7">
+                <img src="slide8.jpg" alt="Slide 8">
+                <!-- Add more slides as needed -->
+            </div>
+            <button class="carousel-prev">&lt;</button>
+            <button class="carousel-next">&gt;</button>
+        </div>
+    </div>
+
+    <div class="shop-section">
+        <div class="box">
+            <div class="box-content">
+                <h2>Clothes</h2>
+                <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Health & Care</h2>
+                <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Furniture</h2>
+                <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Electronics</h2>
+                <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Make Up</h2>
+                <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Pet Cares</h2>
+                <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>New Toys</h2>
+                <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <h2>Fashion Trends</h2>
+                <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                <p>See More</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Shopping Offers Section -->
+    <div class="offers-section">
+        <h2>Today's Special Offers</h2>
+        <div class="offer-box">
+            <img src="offer1.jpeg" alt="Offer 1">
+            <div class="offer-details">
+                <h3>50% off on Electronics</h3>
+                <p>Grab the best deals on top electronic brands. Limited time offer!</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+        <div class="offer-box">
+            <img src="offer2.jpeg" alt="Offer 2">
+            <div class="offer-details">
+                <h3>Buy 1 Get 1 Free on Clothing</h3>
+                <p>Exclusive fashion sale for a limited period. Hurry up!</p>
+                <a href="#">Shop Now</a>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+
+    <!-- Customer Testimonials Section -->
+    <div class="testimonials-section">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial-box">
+            <p>"Great shopping experience! The delivery was quick and the product quality is excellent."</p>
+            <span>-Ashwani Chauhan</span>
+        </div>
+        <div class="testimonial-box">
+            <p>"Amazon offers the best deals and the customer service is very responsive."</p>
+            <span>-Shubham Mishra</span>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1">
+            Back To Top
+        </div>
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a href="#">Careers</a>
+                <a href="#">Blog</a>
+                <a href="#">About Amazon</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Amazon Devices</a>
+                <a href="#">Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Connect with Us</p>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+                <a href="#">LinkedIn</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a href="#">Sell on Amazon</a>
+                <a href="#">Sell under Amazon Accelerator</a>
+                <a href="#">Protect and Build Your Brand</a>
+                <a href="#">Amazon Global Selling</a>
+                <a href="#">Become an Affiliate</a>
+                <a href="#">Fulfillment by Amazon</a>
+                <a href="#">Advertise Your Products</a>
+                <a href="#">Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a href="#">COVID-19 and Amazon</a>
+                <a href="#">Your Account</a>
+                <a href="#">Returns Centre</a>
+                <a href="#">100% Purchase Protection</a>
+                <a href="#">Amazon App Download</a>
+                <a href="#">Amazon Assistant Download</a>
+                <a href="#">Help</a>
+            </ul>
+        </div>
+        <div class="foot-panel3">
+            <div class="logo"></div>
+        </div>
+        <div class="foot-panel4">
+            <div class="pages">
+                <a href="#">Conditions of Use</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const carouselContainer = document.querySelector('.carousel-container');
+            const carouselSlide = document.querySelector('.carousel-slide');
+            const slides = Array.from(carouselSlide.children);
+            const prevButton = document.querySelector('.carousel-prev');
+            const nextButton = document.querySelector('.carousel-next');
+        
+            const slideWidth = slides[0].getBoundingClientRect().width;
+        
+            // Arrange slides next to each other
+            slides.forEach((slide, index) => {
+                slide.style.left = slideWidth * index + 'px';
+            });
+        
+            let currentIndex = 0;
+        
+            function moveToSlide(index) {
+                carouselSlide.style.transform = 'translateX(' + (-slideWidth * index) + 'px)';
+                currentIndex = index;
+            }
+        
+            prevButton.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    moveToSlide(currentIndex - 1);
+                }
+            });
+        
+            nextButton.addEventListener('click', () => {
+                if (currentIndex < slides.length - 1) {
+                    moveToSlide(currentIndex + 1);
+                }
+            });
+        });
+        </script>
+        
+</body>
+</html>
